@@ -1,0 +1,42 @@
+{
+  "name": "jasmine-data_driven_testing",
+  "version": "1.0.0",
+  "description": "With this plugin for Jasmine 5.x, data-driven testing is very easy.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pekarasa/jasmine-data_driven_testing.git"
+  },
+  "keywords": [
+    "typescript",
+    "jasmine",
+    "unit",
+    "test",
+    "testing",
+    "data",
+    "driven",
+    "tdd",
+    "helpers",
+    "all"
+  ],
+  "author": "Peter Portmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pekarasa/jasmine-data_driven_testing/issues"
+  },
+  "homepage": "https://github.com/pekarasa/jasmine-data_driven_testing#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/jasmine": "^4.3.5",
+    "jasmine": "^5.0.2"
+  }
+}
