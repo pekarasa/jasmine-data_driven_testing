@@ -27,13 +27,19 @@ Write your first test:
 ```typescript
 import { all } from "jasmine-data_driven_testing";
 
-describe("PatchFunctions", function () {
+describe("blank values are invalid", function () {
     all<any>([
         [""],
         [null],
         [undefined]
-    ], "blank values are invalid", function (param) {
-        expect(value).toBe(true);
+    ], "blank values are invalid", function (param: string) {
+        // act
+        let isBlank: boolean = true;
+        if (param) {
+            isBlank = false;
+        }
+        // assert
+        expect(isBlank).toBe(true);
     });
 }
 ```
