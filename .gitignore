@@ -8,3 +8,6 @@ node_modules
 
 # Build generated files
 lib
+
+# output of npm pack
+jasmine-data_driven_testing-1.0.0.tgz
