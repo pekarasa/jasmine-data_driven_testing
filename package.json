@@ -1,6 +1,6 @@
 {
   "name": "jasmine-data_driven_testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "With this plugin for Jasmine 5.x, data-driven testing is very easy.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
